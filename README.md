@@ -12,7 +12,7 @@ The core of the lab network is a Cisco C1111-8P running IOS-XE 16.6.4, configure
 **Key configurations:**
 - 4 isolated VLANs segmented by trust level
 - Zone Based Firewall (ZBF) with stateful inspection
-- IKEv2 IPSec VPN server with AES-256 / SHA256 / Group 14
+- IKEv2 IPSec VPN server with AES-256 / SHA256 / Group 14 (Deprecated)
 - Dynamic DNS via No-IP for remote VPN access
 - SSH remote management (SSHv2 only)
 - NAT/PAT for internet access across all VLANs
